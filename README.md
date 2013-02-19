@@ -5,3 +5,4 @@
 <p>Para últiliza-lo use jQuery.
 Veja um exemplo:<code>if $(document).load(function(){
 $(this).loading();});</p>
+<small>Atenção:Eu não testei para ver se realmente funciona.Caso não funcione dê um jeito.</small>
