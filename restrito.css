@@ -4,3 +4,16 @@ text-align:center;
 a:link{
 color:#373737;
 }
+body{
+  font-family:'Arial';
+  
+}
+hr{
+  border:1px solid #373737;
+}
+.content{
+  margin:10px auto;
+  width:800px;
+  background:white;
+  border:2px solid #ccc;
+}
