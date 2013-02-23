@@ -1,3 +1,58 @@
-body{
-background:orange;
+  body{
+  font-family:'Arial';
+}
+.user{
+  width:200px;
+  height:40px;
+  border:2px solid #373737;
+  border-radius:5px;
+  padding:5px;
+  background:#eee;
+  float:right;
+  
+}
+h1{
+  font-family:'Arial';
+  text-align:center;
+  font-size:50px;
+}
+a:link{
+  color:#373737;
+  text-decoration:none;
+  
+}
+a:hover{
+  color:orange;
+}
+a:visited{
+  color:#373737;
+}
+#logout{
+  float:left;
+ font-size:12px;
+ }
+ #titulo{
+ outline:none;
+ border-radius:4px;
+ width:50%;
+ height:100px;
+ font-size:50px;
+border:1px solid #373737;
+ 
+ 
+ 
+ }
+ textarea{
+ outline:none;
+ }
+hr{
+border:1px solid #373737;
+}
+.content{
+width:850px;
+background:white;
+margin:10px auto;
+border:2px solid #373737;
+border-radius:5px;
+
 }
