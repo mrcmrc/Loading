@@ -4,69 +4,19 @@ url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa.ttf') format('woff
 url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa.ttf') format('truetype'); }
 
 
-.user{
-  width:200px;
-  background:#eee;
-  border:1px solid #ccc;
-  border-radius:5px;
-  padding:10px;
-  font-family:'Arial';
-}
-a:link{
-text-decoration:none;
-color:#373737;
-  font-family:'Arial';
-}
-a:hover{
-color:orange;
-}
-a:visited{
-  color:#373737;
-}
-.links{
-  width:200px;
-  background:#eee;
-  border:#ccc;
-  height:200px;
-  border-radius:5px;
-  display:none;
-}
-.close{
-  cursor:pointer;
-}
-.icon1{
-  font-family:'icon';
-  -webkit-font-smoothing: antialiased;
-}
-.icon1:after{
-  position:absolute;
-  diplay:block;
-  content:"~";
+.menu{list-style:none; margin:20px 0 0 350px; border:1px solid #c0c0c0; float:left;border-radius:5px;
+background:#eee;font-family:'Arial';padding:5px;width:200px;}
+.menu li{position:relative; float:left;}
+.menu li a{font-size:20px; color:#333; text-decoration:none; padding:5px 10px; display:block;}
 
-}
-.icon2{
+.menu li a:hover{background:#ccc; color:#fff;border-radius:5px;}
+.menu li   ul{position:absolute; top:23px; left:-5px; background-color:#fff; display:none;width:200px; }
+.menu li:hover ul, .menu li.over ul{display:block;margin-top:7px;}
+.menu li ul li{border:1px solid #c0c0c0; display:block; width:110px;background:#eee;width:209px;
+padding-bottom:5px;padding-top:5px;}
+.icon{
   font-family:'icon';
 }
-.icon2:after{
-  position:absolute;
-  diplay:block;
-  content:"g";
-}
-.icon3{
-  font-family:'icon';
-}
-  
-.icon3:after{
-   position:absolute;
-  diplay:block;
-  content:"8";
-}
-.blank{
-  width:20px;
-  background:transparent;
-  color:transparent;
-}
-
 
 
 h1{
