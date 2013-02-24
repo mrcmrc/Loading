@@ -10,7 +10,7 @@ background:#eee;font-family:'Arial';padding:5px;width:200px;}
 .menu li a{font-size:20px; color:#333; text-decoration:none; padding:5px 10px; display:block;}
 
 .menu li a:hover{background:#ccc; color:#fff;border-radius:5px;}
-.menu li   ul{position:absolute; top:23px; left:0px; background-color:#fff; display:none;width:200px; }
+.menu li   ul{position:absolute; top:23px; left: -46px; background-color:#fff; display:none;width:200px; }
 .menu li:hover ul, .menu li.over ul{display:block;margin-top:7px;}
 .menu li ul li{border:1px solid #c0c0c0; display:block; width:110px;background:#eee;width:209px;
 padding-bottom:5px;padding-top:5px;}
