@@ -1,3 +1,74 @@
+@font-face{font-family:'icon'; src:
+url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa-webfont.woff') format('eot'),
+url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa.ttf') format('woff'),
+url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa.ttf') format('truetype'); }
+
+
+.user{
+  width:200px;
+  background:#eee;
+  border:1px solid #ccc;
+  border-radius:5px;
+  padding:10px;
+  font-family:'Arial';
+}
+a:link{
+text-decoration:none;
+color:#373737;
+  font-family:'Arial';
+}
+a:hover{
+color:orange;
+}
+a:visited{
+  color:#373737;
+}
+.links{
+  width:200px;
+  background:#eee;
+  border:#ccc;
+  height:200px;
+  border-radius:5px;
+  display:none;
+}
+.close{
+  cursor:pointer;
+}
+.icon1{
+  font-family:'icon';
+  -webkit-font-smoothing: antialiased;
+}
+.icon1:after{
+  position:absolute;
+  diplay:block;
+  content:"~";
+
+}
+.icon2{
+  font-family:'icon';
+}
+.icon2:after{
+  position:absolute;
+  diplay:block;
+  content:"g";
+}
+.icon3{
+  font-family:'icon';
+}
+  
+.icon3:after{
+   position:absolute;
+  diplay:block;
+  content:"8";
+}
+.blank{
+  width:20px;
+  background:transparent;
+  color:transparent;
+}
+
+
+
 h1{
 text-align:center;
 }
