@@ -4,7 +4,7 @@ url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa.ttf') format('woff
 url('https://sites.google.com/site/hostln1dfsfdrfsd/home/sosa.ttf') format('truetype'); }
 
 
-.menu{list-style:none; margin:20px 0 0 350px; border:1px solid #c0c0c0; float:left;border-radius:5px;
+.menu{list-style:none; margin-left:10px; border:1px solid #c0c0c0; float:left;border-radius:5px;
 background:#eee;font-family:'Arial';padding:5px;width:200px;}
 .menu li{position:relative; float:left;}
 .menu li a{font-size:20px; color:#333; text-decoration:none; padding:5px 10px; display:block;}
